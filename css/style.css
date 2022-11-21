@@ -1,0 +1,22 @@
+/*Estilo utilizando elementos html*/
+h1{
+    /*Propiedades */
+    text-align: center;
+    color: rgb(132, 235, 163);
+}
+h2{
+    /*Propiedades */
+    text-align: center;
+    color: rgb(101, 180, 233);
+}
+.fuente-especial{
+    /*Propiedades */
+    text-align: left;
+    color: rgb(241, 31, 31);
+}    
+li.fuente-especial{
+    color: #1F618D 
+}
+p.fuente-especial{
+    color: #F4D03F;
+}
