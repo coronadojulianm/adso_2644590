@@ -8,10 +8,13 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
+    font-size: 400px;
+    font-weight: 600px;
 }
 .fuente-g{
     font-family: cinzel,serif;
     font-size: 400px;
+    font-weight: 600px;
 
 }
 /* cinzel-regular - latin */
