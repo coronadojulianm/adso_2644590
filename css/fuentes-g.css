@@ -1,6 +1,6 @@
 body{
     background-image: url("../imagenes/game.jpg");
-     
+    background-size: cover; 
 }
 
 .box-1{
