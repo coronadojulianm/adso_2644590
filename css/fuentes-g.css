@@ -18,7 +18,7 @@ body{
 @font-face {
     font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     src: url('../fonts/cinzel-v19-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/cinzel-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
