@@ -1,6 +1,6 @@
 body{
     background-image: url("../imagenes/game.jpg");
-    background-size: cover;  
+    background-size: cover; 
 }
 
 .box-1{
@@ -8,17 +8,19 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
+   
 }
 .fuente-g{
     font-family: cinzel,serif;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 600px;
 
 }
 /* cinzel-regular - latin */
 @font-face {
     font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600px;
     src: url('../fonts/cinzel-v19-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/cinzel-v19-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -31,7 +33,7 @@ body{
   @font-face {
     font-family: 'Cinzel';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800px;
     src: url('../fonts/cinzel-v19-latin-800.eot'); /* IE9 Compat Modes */
     src: local(''),
          url('../fonts/cinzel-v19-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
