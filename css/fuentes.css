@@ -43,3 +43,10 @@ li.fuente-especial{
          url('../fonts/cinzel-v19-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/cinzel-v19-latin-800.svg#Cinzel') format('svg'); /* Legacy iOS */
   }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: red;
+}

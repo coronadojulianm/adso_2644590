@@ -24,3 +24,14 @@ li.fuente-especial{
 p.fuente-especial{
     color: #F4D03F;
 }
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
