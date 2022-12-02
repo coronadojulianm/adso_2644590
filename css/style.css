@@ -1,4 +1,8 @@
 /*Estilo utilizando elementos html*/
+body {
+    background-image: url("../imagenes/asterik.jpg");
+    background-size: cover;
+}
 h1{
     /*Propiedades */
     text-align: center;
@@ -15,7 +19,7 @@ h2{
     color: rgb(241, 31, 31);
 }    
 li.fuente-especial{
-    color: #1F618D 
+    color: #B03A2E
 }
 p.fuente-especial{
     color: #F4D03F;

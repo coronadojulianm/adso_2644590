@@ -1,0 +1,32 @@
+body{
+    background-image: url("../imagenes/angelcaido.jpg");
+    background-size: cover;
+}
+.containergeneral{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 145px;
+    text-align: center;
+}
+.color1{
+    width: 200px;
+    height: 200px;
+    background-color: #2596be;
+    background-size: cover;
+    margin-left:500px;
+}
+.color2{
+    width: 200px;
+    height: 200px;
+    background-color: #f2c08b;
+    background-size: cover;
+    margin-left: 12px;
+}
+.color3{
+    width: 200px;
+    height: 200px;
+    background-color:#aa8236 ;
+    background-size: cover;
+    margin-left: 12px;
+}
+    

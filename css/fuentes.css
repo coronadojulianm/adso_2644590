@@ -1,6 +1,13 @@
+body{
+    background-image: url("../imagenes/letras.png");
+    background-size: cover;
+}
+li.fuente-especial{
+    color: white;
+}
 .curier-font {
     font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;/*font-family tipo de letra */
-    color: #BB8FCE;
+    color: white;
     font-size: 1.5em; /*tamaño de la letra 1 em= a 16pixeles o px*/
 }
 .h1{
