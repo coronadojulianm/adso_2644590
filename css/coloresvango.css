@@ -7,19 +7,21 @@ body{
     margin-left: 600px;
     margin-top: 145px;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #414141 ;
 }
 .color1{
     width: 200px;
     height: 200px;
-    background-color: #2596be;
+    background-color:cyan ;
     background-size: cover;
     margin-left: 500px;
 }
 .color2{
     width: 200px;
     height: 200px;
-    background-color: #f2c08b;
+    background-color:rgb(253, 221, 202);
     background-size: cover;
     margin-left: 12px;   
 }

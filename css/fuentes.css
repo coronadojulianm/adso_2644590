@@ -7,12 +7,20 @@ li.fuente-especial{
 }
 .curier-font {
     font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;/*font-family tipo de letra */
-    color: white;
+    color: #FC05C8;
     font-size: 1.5em; /*tamaño de la letra 1 em= a 16pixeles o px*/
 }
 .h1{
-    color: #239B56;
+    color: #4EF002;
 }
+a{
+    text-decoration: none;
+    color: #02A0FF ;
+}
+a:hover{
+    color: #4C02F4;
+}
+
 .cinzel-font{
     font-family: cinzel, serif;
     font-weight: 900;
@@ -43,10 +51,3 @@ li.fuente-especial{
          url('../fonts/cinzel-v19-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/cinzel-v19-latin-800.svg#Cinzel') format('svg'); /* Legacy iOS */
   }
-a{
-    text-decoration: none;
-    color: white;
-}
-a:hover{
-    color: red;
-}

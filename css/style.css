@@ -6,23 +6,23 @@ body {
 h1{
     /*Propiedades */
     text-align: center;
-    color: rgb(132, 235, 163);
+    color: rgb(146, 55, 244);
 }
 h2{
     /*Propiedades */
     text-align: center;
-    color: rgb(101, 180, 233);
+    color: rgb(210, 119, 228);
 }
 .fuente-especial{
     /*Propiedades */
     text-align: left;
-    color: rgb(241, 31, 31);
+    color: rgb(235, 112, 112);
 }    
 li.fuente-especial{
     color: #B03A2E
 }
 p.fuente-especial{
-    color: #F4D03F;
+    color: #f8df7e;
 }
 
 a{
@@ -32,6 +32,6 @@ a{
 }
 
 a:hover{
-    color: red;
+    color: rgb(247, 127, 191);
 }
 
