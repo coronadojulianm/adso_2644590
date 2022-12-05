@@ -3,24 +3,26 @@ body{
     background-size: cover;
 }
 li.fuente-especial{
-    color: white;
+    color: #4EF002
 }
 .curier-font {
-    font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;/*font-family tipo de letra */
-    color: #FC05C8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;/*font-family tipo de letra */
+    color: #efc0f9;
     font-size: 1.5em; /*tamaño de la letra 1 em= a 16pixeles o px*/
 }
 .h1{
-    color: #4EF002;
+    color: #e40fa1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a{
     text-decoration: none;
-    color: #02A0FF ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white ;
 }
 a:hover{
-    color: #4C02F4;
+    color: #f45309;
 }
-
 .cinzel-font{
     font-family: cinzel, serif;
     font-weight: 900;

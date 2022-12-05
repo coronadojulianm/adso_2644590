@@ -19,19 +19,21 @@ h2{
     color: rgb(235, 112, 112);
 }    
 li.fuente-especial{
-    color: #B03A2E
+    color: #59ef37
 }
 p.fuente-especial{
     color: #f8df7e;
+    font-size: 24px;
 }
 
 a{
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
     color: white;
 }
 
 a:hover{
-    color: rgb(247, 127, 191);
+    color: rgb(195, 2, 249);
 }
 
