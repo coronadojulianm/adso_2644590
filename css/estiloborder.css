@@ -1,0 +1,22 @@
+body{
+    background-image: url("/imagenes/dark.jpg");
+    background-size: cover;
+}
+.box-1{
+    width: 200px;
+    height: 200px;
+    font-size: 22px;
+    line-height: 150px;
+    text-align: center;
+    background-color:cyan ;
+    border: 20px solid red;
+}
+.parrafo1{
+    font-size: 2.5em;
+    text-align: justify;
+    margin: 100px;
+    border: 1px solid red;
+    color: white;
+    padding: 120px;
+
+}
