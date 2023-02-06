@@ -1,17 +1,18 @@
 body{
-    background-color: black;
+    background-color: #E9F6B8 ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.box1{
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
-.imagen{
-    width: 10%;
-    height: 10%;
-    border: 10px solid white;
-}
 
-h1{
-    color: rgb(112, 240, 95);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+}
+.box2{
+    text-align: center;
+}
+.box3{
+    text-align: center;
 }
