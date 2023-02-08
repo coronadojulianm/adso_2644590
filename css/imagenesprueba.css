@@ -1,6 +1,23 @@
 body{
     background-color: #E9F6B8 ;
 }
+.tamañosimg{
+    width: 50%;
+    height: 50%;
+}
+.botoncito{
+    font-size: 15px;
+    border-color: #FE8B86;
+    background-color: #dae2da;
+}
+.botoncito:hover{
+    color:#FF705F ;
+    background-color: #f8c6c0;
+}
+.letrasprecio{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -8,11 +25,19 @@ body{
 }
 .box1{
     text-align: center;
-
+    background-color: #e0f78c;
+    border: 10px solid #FE8B86;
+    box-shadow: 5px 5px 5px #000000;
 }
 .box2{
     text-align: center;
+    background-color: #e0f78c;
+    border: 10px solid #FE8B86;
+    box-shadow: 5px 5px 5px #000000;
 }
 .box3{
     text-align: center;
+    background-color: #e0f78c;
+    border: 10px solid #FE8B86;
+    box-shadow: 5px 5px 5px #000000;
 }

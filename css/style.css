@@ -1,36 +1,43 @@
 /*Estilo utilizando elementos html*/
 body {
-    background-image: url("../imagenes/asterik.jpg");
+    background-image: url(/imagenes/fondoblanco.png);
     background-size: cover;
 }
 h1{
     /*Propiedades */
     text-align: center;
-    color: rgb(146, 55, 244);
+    color: rgb(0, 0, 0);
 }
 h2{
     /*Propiedades */
     text-align: center;
-    color: rgb(210, 119, 228);
+    color: rgb(0, 0, 0);
 }
 .fuente-especial{
     /*Propiedades */
     text-align: left;
-    color: rgb(235, 112, 112);
+    color: rgb(0, 0, 0);
 }    
 li.fuente-especial{
     color: #59ef37
 }
 p.fuente-especial{
-    color: #f8df7e;
+    color: #000000;
     font-size: 24px;
 }
-
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.box1{
+    
+}
 a{
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    color: white;
+    color: rgb(252, 0, 0);
 }
 
 a:hover{
