@@ -1,6 +1,6 @@
 /*Estilo utilizando elementos html*/
 body {
-    background-image: url(imagenes/fondoblanco.png);
+    background-image: url("../imagenes/fondoblanco.png");
     background-size: cover;
 }
 h1{
