@@ -28,10 +28,11 @@ p.fuente-especial{
 .container{
     display: flex;
     justify-content: center;
-    gap: 300px;
+    gap: 50px;
 }
-.box1{
-    
+.imageneseje{
+    height: 50%;
+    width: 50%;
 }
 a{
     text-decoration: none;
