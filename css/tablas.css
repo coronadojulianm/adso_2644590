@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+.tabla1{
+    border-collapse: collapse;
+    /* border: 2px solid rgb(64, 64, 64); */
+    width: 90em;
+}
+.centrar{
+    text-align: center;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px dashed rgb(64, 64, 64);
+    /* border-top: none; */
+    border-left: none;
+    border-bottom: 0;
+}
+
+th {
+    background-color: rgb(255, 255, 255);
+    color: #f85d5d;
+    border-top: 0;
+}
+.rectangulo {
+    width: 100px;
+    height: 50px;
+    background-color: #ccc;
+  }
+
+.centrar{
+    border-bottom: 0;
+    background-color: #f85d5d00;
+}
+.color1{
+    display: inline-block;
+    background-color: rgb(158, 238, 238);
+    height: 10px;
+    width: 80px;
+}
+.color2{
+    display: inline-block;
+    background-color: rgb(5, 243, 243);
+    height: 10px;
+    width: 160px;
+}
