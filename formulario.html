@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio De Sesion</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Registro Para Reserva De Vuelos</h1>
+    <div class="form-box">
+            <form>
+                <legend><img class="imgavion" src="https://images.vexels.com/media/users/3/128926/isolated/preview/c60c97eba10a56280114b19063d04655-icono-redondo-del-aeropuerto-de-avion.png" alt=""><span class="legent-text">Ingrese Sus Datos</span></legend><br>
+                
+                <label>Ingrese el numero de documento</label>
+                <input type="text" name="numerodocumento"></input><br><br>
+                
+                <label>Ingrese el primer nombre</label>
+                <input type="text" name="primernombre"></input><br><br>
+
+                <label>Ingrese el segundo nombre</label>
+                <input type="text" name="segundonombre"></input><br><br>
+
+                <label>Ingrese el primer apellido</label>
+                <input type="text" name="primerapellido"></input><br><br>
+
+                <label>Ingrese el segundo apellido</label>
+                <input type="text" name="segundoapellido"></input><br><br>
+                
+                <label>¿Con que genero te identificas?</label>
+                <input type="radio" name="genero" value="masculino"><span class="texto-opcion">Masculino</span></input><br>
+                <input type="radio" name="genero" value="femenino"><span class="texto-opcion">Femenino</span></input><br>
+                <input type="radio" name="genero" value="indefinido"><span class="texto-opcion">Indefinido</span></input><br>
+                <input type="radio" name="genero" value="nodice"><span class="texto-opcion">Prefiero no decirlo</span></input><br><br>
+
+                <label>Seleccione la aerolinea con la cual le gustaria viajar</label>
+                <input type="checkbox" name="aerolineas" id=""><span class="texto-opcion">Avianca</span> 
+                <input type="checkbox" name="aerolineas" id=""><span class="texto-opcion">Viva Air</span> 
+                <input type="checkbox" name="aerolineas" id=""><span class="texto-opcion">Latam</span>
+                <input type="checkbox" name="aerolineas" id=""><span class="texto-opcion">Ultra air</span>
+
+                <br><br> 
+
+                <label>Seleccione su destino Rey 👑</label><br>
+                <select name="destino">
+                    <option value="sanandres">San Andres</option>
+                    <option value="cartagena">Cartagena</option>
+                    <option value="santamarta">Santa Marta</option>
+                    <option value="medellin">Medellin</option>
+                    <option value="bogota">Bogotá</option>
+                </select>
+
+                <br><br>
+                
+                <label>¿Desea Hacerle Alguna Consulta Especial A La Aerolinea?</label><br>
+                <textarea name="text" id="" cols="40" rows="6"></textarea><br>
+                
+                <input type="submit"> <br><br>
+
+            </form>
+    </div>        
+</body>
+</html>
