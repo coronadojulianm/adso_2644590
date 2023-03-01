@@ -1,47 +1,89 @@
 /*Estilo utilizando elementos html*/
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 body {
-    background-image: url("../imagenes/fondoblanco.png");
-    background-size: cover;
-}
-h1{
-    /*Propiedades */
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-h2{
-    /*Propiedades */
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-.fuente-especial{
-    /*Propiedades */
-    text-align: left;
-    color: rgb(0, 0, 0);
-}    
-li.fuente-especial{
-    color: #59ef37
-}
-p.fuente-especial{
-    color: #000000;
-    font-size: 24px;
-}
-.container{
+    background-color: #000000;
+    font-family: 'Poiret One', cursive;
+} 
+
+/* BARRA DE BUSQUEDA */
+.container-barra-busqueda{
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.imageneseje{
-    height: 50%;
-    width: 50%;
+nav{
+    background-color: #1f0d27;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 1px;
 }
-a{
+  
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+  
+nav li{
+    margin-left: 55px;
+}
+  
+nav a{
+    color: white;
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    color: rgb(252, 0, 0);
+    font-weight: bold;
+ }
+ nav a:hover {
+    color: rgb(240, 0, 240);
+    transform: scale(1.4) ;
+    transition: .5s; 
 }
-
-a:hover{
-    color: rgb(195, 2, 249);
+/* TITULOS Y PARRAFOS */
+h1{
+    /*Propiedades */
+    text-align: center;
+    color: rgb(115, 3, 115);
+    font-weight: bold;
 }
-
+h2{
+    /*Propiedades */
+    text-align: center;
+    color: rgb(115, 3, 115);
+    font-weight: bold;
+}
+h3{
+    color: #caabd0;
+    font-size: 24px;
+    margin-right: 100px;
+}
+p{
+    color: #f3f3f3;
+    font-size: 24px;
+    text-align: justify;
+}
+/* SECCION SOBRE MI */
+.caja-sobremi{
+    display: flex;
+}
+.caja-foto-perfil{
+    margin-left: 100px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border: 5px solid #1f0d27;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.texto{
+    padding-right: 200px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
