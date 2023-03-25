@@ -20,24 +20,25 @@ li {
     margin: 0px 0px 2px 0px;
 }
 
-.menu_principal li:hover{
-    background-color: rgba(0, 0, 0, 0.171);
-}
-
-a {
+.a_menu_principal {
     text-decoration: none;
     font-size: 12px;
     color: rgb(87, 87, 86);
-    padding: 10px 7px 9px 7px ;
+    padding: 10px 7px 9px 7px;
     font-weight: bolder;
 }
 
-.focus {
+.color_focus{
     background-color: rgb(87, 87, 86);
     color: white;
     text-decoration: none;
     font-size: 12px;
-    font-weight: bolder;
+}
+.focus {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: lighter;
 }
 
 .static {
@@ -61,7 +62,7 @@ a {
 }
 
 
-.fa-solid {
+.simbol_search {
     font-size: 1em;
     text-align: center;
     margin: 7px 14px;
@@ -117,14 +118,30 @@ h4 {
 
 .submenu {
     width: 1025px;
-    height: 700px;
+    height: 640px;
     background-color: white;
     border: solid 1px rgb(212, 212, 212);
     color: white;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 0px 0px rgb(0 0 0 / 0%), 0 5px 10px rgb(0 0 0 / 30%) inset;
-    border: solid 1px rgb(212,212,212);
-    border-top: solid 1px rgb(159,159,159);
+    border: solid 1px rgb(212, 212, 212);
+    border-top: solid 1px rgb(159, 159, 159);
+    padding-top: 183px;
+    display: flex;
+    justify-content: center;
+}
+
+.submenu_logos {
+    width: 74.5%;
+}
+
+.li_submenu {
+    background-color: rgb(87, 87, 86);
+    width: 210px;
+    padding: 8px 15px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 8px;
+    width: 100%;
 }
 
 .borde_submenu {
@@ -132,23 +149,14 @@ h4 {
 }
 
 .div_submenu {
-    height: 770px;
+    height: 860px;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(241,238,238);
+    background-color: rgb(241, 238, 238);
     box-shadow: 0 5px 10px rgb(0 0 0 / 30%) inset;
 }
 
-.li_submenu {
-    background-color: rgb(87, 87, 86);
-    display: block;
-    width: 210px;
-    padding: 10px;
-    margin: 0px 0px 3px 11px;
-    border-radius: 4px;
-    
-}
 
 .div_limite {
     display: flex;
@@ -162,21 +170,34 @@ h4 {
 
 .search {
     width: 20px;
-    background-color: rgb(128,128,128);
+    background-color: rgb(128, 128, 128);
     color: azure;
 }
 
-.div_busqueda{
-    justify-content:right ;
+.div_busqueda {
+    justify-content: right;
     display: flex;
-    width: 800px;
+    width: 900px;
     float: right;
     margin: 8px 0px 21px 0px;
 }
 
-.input_search{
+.input_search {
     width: 233px;
     height: 18px;
     padding: 0px 4px;
 
+}
+
+.icon_submenu{
+    font-size: 26px;
+    color: white;
+    margin-right: 6px;
+}
+.submenu li:hover {
+    background-color: rgba(0, 0, 0, 0.472);
+}
+
+.menu_principal li:hover {
+    background-color: rgba(0, 0, 0, 0.171);
 }
