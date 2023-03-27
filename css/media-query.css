@@ -1,3 +1,75 @@
-body{
-    
+*{
+    padding: 0;
+    margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    font-family: 'Indie Flower', cursive;
+}
+.imagen-logo{
+    display: none;
+}
+img{
+    width: 60px;
+}
+nav {
+    background-color: #f71c4b;
+    overflow: hidden;
+    box-shadow: #fd7794 0px 50px 100px -20px, #fd7794 0px 30px 60px -30px;
+    border-bottom: 1px solid black;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: right;
+  }
+  nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  nav li a:hover {
+    background-color: #a30023;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .imagen-logo{
+        display: flex;
+        justify-content: space-between;
+        background-color: #c20232;
+    }
+    .style-bars{
+        font-size: 2.4em;
+        padding:20px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    .style-bars:hover{
+        transition: .5s;
+        transform: scale(1.2);
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    nav{
+        border: none;
+    }
+    nav ul {
+      display: flex; /* Cambiamos el valor de display de la lista ul a flex */
+      flex-direction: column; /* Cambiamos la dirección del flujo de los elementos a columna */
+    }
+    
+    nav li {
+      float: none; /* Quitamos la propiedad float de los elementos li */
+    }
+  }
