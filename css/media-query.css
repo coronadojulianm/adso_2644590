@@ -61,6 +61,9 @@ nav {
         width: 100px;
         height: 100px;
     }
+    .none{
+        display: none;
+    }
     nav{
         border: none;
     }
