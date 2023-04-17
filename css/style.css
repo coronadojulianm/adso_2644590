@@ -10,7 +10,7 @@ body {
 .container-barra-busqueda{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 10px;
 }
 nav{
     background-color: #1f0d27;

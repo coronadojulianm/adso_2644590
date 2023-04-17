@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    font-family: 'Indie Flower', cursive;
+}
+nav {
+    font-size: 1.4em;
+}
+nav ul {
+    width: 100%;
+    background-color: rgb(42, 165, 128);
+    list-style: none;
+    color: white;
+    position: absolute;
+}
+a{
+    background-color: rgb(42, 165, 128);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 20px;
+    display: block;
+}
+nav ul li{
+    background-color: aquamarine;
+    line-height: 70px;
+    width: 230px;
+    text-align: center;
+    position: relative;
+}
+/* Hijo directo de nav */
+nav > ul > li {
+    float: left;
+}
+/* Menu secundario y terciario */
+nav li li{
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover > ul > li{
+    max-height: 500px;
+    overflow: visible;
+}
+nav ul li:hover{
+    background-color: rgb(24, 92, 71);
+}
+nav ul ul ul{
+    left: 100%;
+    top: 0;
+}
+/* .menu-hijo{
+    display: none;
+} */
