@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Caveat', cursive;
+}
+.img-principal {
+    background-image: url(../imagenes/1920x1080\ y.jpg);
+    width: 100%;
+    height: 969px;
+    background-size: cover;
+    background-position: center;
+    z-index: 5;
+    position: fixed;
+    opacity: .4;
+   
+}
+.form-box{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+    background-color: #EF4A4A;
+    width: 390px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.box-user{
+    color: #360000 ;
+    font-size: 130px;
+    display: flex;
+    justify-content: center;
+}
+.icon-user-circle-o{
+    width: 160px;
+    height: 160px;
+    background-color: #EF4A4A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -80px;
+    border: 2px solid black;
+}
+
+/* Ola */
+
+.login-box {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 420px;
+	padding: 40px;
+}
+.login-box h2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.login-box .user-box {
+	position: relative;
+}
+.login-box .user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+.login-box .user-box label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 20px;
+	color: #fff;
+	pointer-events: none;
+	transition: 0.5s;
+}
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+	top: -20px;
+	left: 0;
+	color: #e4f403;
+	font-size: 16px;
+}
+.login-box a {
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	margin: 30px 0;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #fca3a3;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+}
