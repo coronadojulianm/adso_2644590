@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+body{
+    font-family: 'Sigmar', cursive;
+}
+h1{
+    text-align: center;
+}
+.centrar-todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.general{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 130vh;
+    height: 50vh;
+    background-color: rgb(214, 102, 124);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100px;
+    margin: 0px 20px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid black;
+}
+.box-1{
+    height: 10%;
+    background-color: rgb(182, 245, 245);
+}
+.box-2{
+    height: 20%;
+    background-color: rgb(152, 253, 219);
+}
+.box-3{
+    height: 30%;
+    background-color: bisque;
+}
+.box-4{
+    height: 40%;
+    background-color: rgb(188, 255, 120);
+}
+.box-5{
+    height: 50%;
+    background-color: rgb(68, 10, 10);
+}
+.box-6{
+    height: 60px;
+    background-color: rgb(243, 197, 14);
+}
+.box-6{
+    height: 70%;
+    background-color: rgb(134, 0, 56);
+}
+.box-7{
+    height: 80%;
+    background-color: rgb(51, 51, 252);
+}
+.box-8{
+    height: 90%;
+    background-color: rgb(247, 247, 97);
+}

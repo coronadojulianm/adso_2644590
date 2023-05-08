@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Sigmar', cursive;
+}
+h1{
+    text-align: center;
+}
+.box-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 230px;
+    background-color: rgb(255, 189, 189);
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 189, 189);
+}
+.box-3{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 230px;
+    background-color: rgb(255, 189, 189);
+}
+.box-4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 400px;
+    background-color: rgb(255, 189, 189);
+    overflow: auto;
+}
+.box-5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 250px;
+    background-color: rgb(255, 189, 189);
+    overflow: auto;
+}
+.box-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-9{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-11{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-13{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-14{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 189, 189); 
+}
+.box-flexdir{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(250, 126, 126);
+    margin: 10px;
+    border-radius: 20%;
+}
+.box-flexdir:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
