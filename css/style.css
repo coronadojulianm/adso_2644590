@@ -10,28 +10,19 @@ body {
 .container-barra-busqueda{
     display: flex;
     justify-content: center;
-    gap: 10px;
 }
-nav{
-    background-color: #1f0d27;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.625em;
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-    margin-top: 0.063em;
+ul{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(71, 22, 100, 0.9);
 }
-  
-nav ul{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-}
-  
-nav li{
-    margin-left: 3.438em;
+li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 35px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
 }
   
 nav a{
@@ -51,6 +42,7 @@ h1{
     text-align: center;
     color: rgb(115, 3, 115);
     font-weight: bold;
+    font-size: 2.5em;
 }
 h2{
     /*Propiedades */
@@ -75,7 +67,7 @@ p{
 .caja-foto-perfil{
     margin-left: 6.25em;
 }
-img{
+.caja-foto-perfil img{
     width: 20em;
     height: 20em;
     border: 0.313em solid #1f0d27;
@@ -87,4 +79,108 @@ img{
     padding-right: 12.5em;
     margin-top: 5em;
     margin-left: 6.25em;
+}
+.box-flexdir{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: #caabd0;
+    margin: 10px;
+    border: 1px solid rgb(114, 0, 142);
+    border-radius: 20%;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.box-flexdir:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+a:hover{
+    color: rgb(212, 0, 255);
+}
+.Cubitos{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    margin-bottom: 10em;
+    width: 50%;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+    cursor: pointer;
+}
+.img1{
+    background-image: url(https://culturacientifica.com/app/uploads/2015/12/Imagen-110.jpg);
+    background-size: cover;
+}
+.img2{
+    background-image: url(https://s1.significados.com/foto/significado-de-los-colores-3b.jpg);
+    background-size: cover;
+}
+.img3{
+    background-image: url(https://w7.pngwing.com/pngs/123/473/png-transparent-borders-and-frames-frame-decorative-frames-s-symmetry-flower-borders-and-frames.png);
+    background-size: cover;
+}
+.img4{
+    background-image: url(https://img.freepik.com/vector-premium/libro-abierto-tapa-dura-paginas-blanco-aislado-libro-texto-dibujos-animados-planos-vector-revista-catalogo-documento-literatura-comercial-papel-publicar-edicion-libro-abierto-tapa-dura-diario-enciclopedia_53500-987.jpg);
+    background-size: cover;
+}
+.img5{
+    background-image: url(https://media.istockphoto.com/id/519654286/es/foto/perro-sombra-de-mano.jpg?s=612x612&w=0&k=20&c=_silbh6VGRHpcH5_vA4PxcMv4s_xEoJ_-sGMBHjP8eU=);
+    background-size: cover;
+}
+.img6{
+    background-image: url(https://i.blogs.es/4b8ba6/excelino/840_560.jpg);
+    background-size: cover;
+}
+.img7{
+    background-image: url(https://tiposdetexto.org/wp-content/uploads/2020/05/formulario.png);
+    background-size: cover;
+}
+.img8{
+    background-image: url(https://images.vexels.com/content/125610/preview/20-flat-circle-contact-icons-480055.png);
+    background-size: cover;
+}
+.img9{
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b9/00/6b/b9006bd5-86b5-57ac-1190-5dfff9d292e8/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png);
+    background-size: cover;
+}
+.img10{
+    background-image: url(https://media.emailonacid.com/wp-content/uploads/2019/05/EOA_MediaQueries2019_Blog.jpg);
+    background-size: cover;
+}
+.img11{
+    background-image: url(https://www.shutterstock.com/image-vector/set-patterns-pixel-objects-concept-260nw-2084350120.jpg);
+    background-size: cover;
+}
+.img12{
+    background-image: url(https://thumbs.dreamstime.com/b/figura-sistema-del-palillo-icono-el-dormir-hombre-las-posiciones-deferentes-escogen-al-var%C3%B3n-en-pictograma-de-la-cama-126407609.jpg);
+    background-size: cover;
+}
+.img13{
+    background-image: url(https://brighterwriting.com/wp-content/uploads/icon-user-default.png);
+    background-size: cover;
+}
+.img14{
+    background-image: url(https://blog.ida.cl/wp-content/uploads/sites/5/2017/12/Porque%CC%81-comenzar-a-utilizar-flexbox.png);
+    background-size: cover;
+}
+.img15{
+    background-image: url(https://img.freepik.com/vector-gratis/grafico-barras-colores-vectoriales-enfatizando-crecimiento-aislado_1284-44014.jpg);
+    background-size: cover;
+}
+.box-flexdir:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
