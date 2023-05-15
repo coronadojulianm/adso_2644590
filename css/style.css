@@ -180,6 +180,10 @@ a:hover{
     background-image: url(https://img.freepik.com/vector-gratis/grafico-barras-colores-vectoriales-enfatizando-crecimiento-aislado_1284-44014.jpg);
     background-size: cover;
 }
+.img16{
+    background-image: url(https://dc722jrlp2zu8.cloudfront.net/media/uploads/2019/03/11/captura-de-pantalla-2019-03-11-a-las-162518.png);
+    background-size: cover;
+}
 .box-flexdir:hover{
     transform: scale(1.1);
     transition: 0.5s;
