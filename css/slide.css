@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-principal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-eve-visible{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    width: 100%;
+    transition: all 1500ms;
+}
+.img-eve-hidden{
+    position: fixed;
+    width: 100%;
+    left: -100%;
+    transition: all 1500ms;
+}
+.img-lulu-visible{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    transition: all 1500ms;
+}
+.img-lulu-hidden{
+    position: fixed;
+    width: 100%;
+    left: 100%;
+    transition: all 1500ms;  
+}
+.img-shaco-visible{
+    position: fixed;
+    width: 100%;
+    left: 100%;
+    transition: all 1500ms;
+}
+.img-shaco-hidden{
+    position: fixed;
+    width: 100%;
+    left: 200%;
+    transition: all 1500ms;  
+}
+
+.left-arrow{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    cursor: pointer;
+}
+.right-arrow{
+    position: absolute;
+    right: 0;
+    top: 200px;
+    cursor: pointer;
+}
