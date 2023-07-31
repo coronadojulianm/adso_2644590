@@ -1,21 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+@font-face {
+    font-family: 'Mailart Rubberstamp';
+    src: url('../fonts/MailartRubberstamp-Regular.otf');
+}
 *{
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', sans-serif;
 }
+span{
+    color: rgb(216, 195, 124);
+    font-family: 'Mailart Rubberstamp';
+    font-size: 1.2em;
+}
+.main-box{
+    background-color: rgb(37, 100, 136);
+}
 nav{
     height: 80px;
+    background-color: rgb(105, 197, 255);
+}
+ul{
+    display: inline-flex;
+    height: 80px;
+    align-items: center;
+    float: right;
+    list-style: none;
+    gap: 100px;
+    padding-right: 30px;
+    font-size: 23px;
+}
+li{
+    font-family: 'Edu SA Beginner', cursive;
+}
+li:hover{
+    color: aliceblue;
+    cursor: pointer;
 }
 .main-img-box{
     width: 100%;
     height: 55vh;
-    background-color: rgb(127, 129, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
-    font-weight: 900;
-    color: white;
+    background-image: url(../imagenes/desencanto/img-principal.jpg);
+    background-size: cover;
+}
+.texto{
+    font-size: 10em;
+    /* font-weight: 900; */
+    font-family: 'Mailart Rubberstamp';
+    color: rgb(216, 195, 124);-webkit-text-stroke: 2px rgb(110, 52, 20);
 }
 .article-box{
     width: 100%;        
@@ -30,35 +65,67 @@ nav{
     grid-area: article-1;
     /* background-color: blueviolet; */
 }
+.png-1{
+    background-image: url(../imagenes/desencanto/lucy.jpg);
+    background-size: cover;
+}
 .article-2{
     grid-area: article-2;
     /* background-color: blueviolet; */
+}
+.png-2{
+    background-image: url(../imagenes/desencanto/elfo.jfif);
+    background-size: cover;
+    background-position: 0px;
 }
 .article-3{
     grid-area: article-3;
     /* background-color: blueviolet; */
 }
+.png-3{
+    background-image: url(../imagenes/desencanto/icons.jfif);
+    background-size: cover;
+    background-position: 0px -30px;
+}
 .article-4{
     grid-area: article-4;
     /* background-color: blueviolet; */
+}
+.png-4{
+    background-image: url(../imagenes/desencanto/bottle.jpg);
+    background-size: cover;
+    background-position: -20px -175px;
 }
 .article-5{
     grid-area: article-5;
     /* background-color: blueviolet; */
 }
+.png-5{
+    background-image: url(../imagenes/desencanto/queloque.jfif);
+    background-size: cover;
+    background-position: -40px;
+}
 .article-6{
     grid-area: article-6;
     /* background-color: blueviolet; */
+}
+.png-6{
+    background-image: url(../imagenes/desencanto/bean.jpg);
+    background-size: cover;
+    background-position: -113px;
 }
 .img-article{
     background-color: rgb(249, 198, 198);
     width: 100%;
     height: 300px;
+    box-shadow: -7px 5px 16px -5px  rgba(216, 195, 124, 0.552);
 }
 .text-cont{
-    color: black;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
     font-size: 1.1em;
     line-height: 1.4em;
+    text-align: justify;
 }
 @media only screen and (max-width: 1500px){
     .article-box{
