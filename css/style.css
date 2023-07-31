@@ -192,6 +192,10 @@ a:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Inocencio_X%2C_Velazquez.jpg/482px-Inocencio_X%2C_Velazquez.jpg);
     background-size: cover;
 }
+.img19{
+    background-image:url(https://smartslider3.com/wp-content/uploads/2019/02/homepagesliders-780x410.png);
+    background-size: cover;
+}
 .box-flexdir:hover{
     transform: scale(1.1);
     transition: 0.5s;
