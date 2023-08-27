@@ -1,9 +1,8 @@
 /*Estilo utilizando elementos html*/
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap');
 body {
     background-color: #000000;
-    font-family: 'Poiret One', cursive;
-    font-size: 16px;
+    font-family: 'Gluten', cursive;
 } 
 
 /* BARRA DE BUSQUEDA */
@@ -20,7 +19,7 @@ li{
     display: inline-block;
     padding: 10px;
     margin-right: 35px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 1.5em;
     color: rgb(255, 255, 255);
 }
@@ -44,6 +43,20 @@ h1{
     font-weight: bold;
     font-size: 2.5em;
 }
+.barra_suelo{
+    border-bottom: 2px solid blueviolet;
+    padding-bottom: 20px;
+}
+.volver-inicio{
+    display: flex;
+    justify-content: right;
+    font-size: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.scroll-up{
+    position: fixed;
+}
 h2{
     /*Propiedades */
     text-align: center;
@@ -55,6 +68,12 @@ h3{
     font-size: 1.5em;
     margin-right: 6.25em;
 }
+.socials{
+    display: flex;
+    gap: 20px;
+    font-size: 35px;
+    cursor: pointer;
+}
 p{
     color: #f3f3f3;
     font-size: 1.5em;
@@ -64,21 +83,32 @@ p{
 .caja-sobremi{
     display: flex;
 }
-.caja-foto-perfil{
-    margin-left: 6.25em;
-}
 .caja-foto-perfil img{
     width: 20em;
     height: 20em;
     border: 0.313em solid #1f0d27;
     border-radius: 3.125em;
-    margin-top: 5em;
+    margin-top: 9em;
+    margin-left: 6.25em;
+}
+.caja-foto-perfil-2 img{
+    width: 20em;
+    height: 20em;
+    border: 0.313em solid #1f0d27;
+    border-radius: 3.125em;
+    margin-top: 9em;
     margin-left: 6.25em;
 }
 .texto{
     padding-right: 12.5em;
     margin-top: 5em;
     margin-left: 6.25em;
+}
+.texto-2{
+    padding-right: 12.5em;
+    margin-top: 5em;
+    margin-left: 6.25em;
+    padding-bottom: 900px;
 }
 .box-flexdir{
     display: flex;
@@ -115,10 +145,14 @@ a:hover{
     margin-top: 1.5em;
     margin-bottom: 10em;
     width: 50%;
-    height: 400px;
+    height: 440px;
     background-color: rgb(0, 0, 0);
     overflow: auto;
     cursor: pointer;
+}
+.trabajos-realizados{
+    margin-top: 420px;
+    padding-bottom: 200px;
 }
 .img1{
     background-image: url(https://culturacientifica.com/app/uploads/2015/12/Imagen-110.jpg);
