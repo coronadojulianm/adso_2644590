@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main-box{
+    padding: 20px;
+}
+.box-subtotal{
+    grid-area: subtotal;
+}
+.subtotal{
+    font-size: 1.6em;
+}
+#subTotal{
+    font-weight: 600;
+}
+.btn-pago-productos{
+    grid-area: btn-pago-productos;
+    background-color: #60BE27  ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.box-img-producto{
+    grid-area: box-img-producto;
+    width: 100%;
+}
+.img-producto{
+    width: 100%;
+    border: 1px solid rgb(165, 165, 165);
+}
+.info-producto{
+    grid-area: info-producto;
+    padding: 15px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.texto-info-producto{
+    margin-bottom: 30px;
+}
+.num-select{
+    height: 100%; 
+    display: grid;
+    grid-template: "num-restar num-view num-sumar"/
+                    1fr        1fr      1fr;
+    border: 2px solid black;
+    border-radius: 22px;  
+    background-color: white;
+}
+.num-restar, .num-sumar{
+    background-color: #60BE27 ;
+    cursor: pointer;
+}
+.num-restar, .num-sumar, .num-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.num-restar{
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+.num-sumar{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+@media only screen and (min-width: 430px) and (max-width: 834px){
+    .main-box{
+        background: rgb(227,254,202);
+        background: linear-gradient(135deg, rgba(227,254,202,1) 0%, rgba(161,250,106,1) 50%, rgba(94,171,47,1) 100%);
+        width: 100%;
+        height: 800px;
+        display: grid;
+        grid-template: "subtotal                subtotal" 50px
+                        "btn-pago-productos     btn-pago-productos" 70px            
+                        "box-img-producto       info-producto" 290px
+                        "num-select             btn-eliminar"40px
+                        "empty-left             btn-save-later"70px/
+                        6fr                     8fr;
+    }
+}
+/* .contenedor-general{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(175, 247, 247);
+}
+.view-carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-elements{
+    width: 10vw;
+    height: 10vh;
+    background-color: brown;
+} */

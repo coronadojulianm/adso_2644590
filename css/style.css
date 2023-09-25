@@ -230,6 +230,10 @@ a:hover{
     background-image:url(https://smartslider3.com/wp-content/uploads/2019/02/homepagesliders-780x410.png);
     background-size: cover;
 }
+.img20{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSebsaqxu9d6UFSTitU-XvcTFVaE1mEDbXgVQ&usqp=CAU);
+    background-size: cover;
+}
 .box-flexdir:hover{
     transform: scale(1.1);
     transition: 0.5s;
