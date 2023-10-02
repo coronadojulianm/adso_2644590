@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+    display: grid;
+    grid-template: "logo input-busqueda hamburguer-menu carrito"/
+                    70px    1fr             50px        50px
+    ;
+}
+.logo{
+    grid-area: logo;
+    background-color: #faf25c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-busqueda{
+    grid-area: input-busqueda;
+    background-color: #faf25c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-bus{
+    height: 35px;
+    width: 100%;
+    border: none;
+}
+.icon-lop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+}
+::placeholder{
+    color: rgb(202, 202, 202);
+}
+.icon1{
+    color: rgb(202, 202, 202);
+}
+.hamburguer-menu{
+    grid-area: hamburguer-menu;
+    background-color: #faf25c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+.carrito{
+    grid-area: carrito;
+    background-color: #faf25c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+.main-content{
+    display: grid;
+    height: 300px;
+    grid-template: "box-producto box-info" /
+                    1fr          1fr;
+}
+.box-producto{
+    grid-area: box-producto;
+    background-color: crimson;
+    height: 300px;
+}
