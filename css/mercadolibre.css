@@ -1,15 +1,16 @@
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     height: 50px;
     display: grid;
-    grid-template: "logo input-busqueda hamburguer-menu carrito"/
-                    70px    1fr             50px        50px
-    ;
+    grid-template: "logo input-busqueda hamburguer-menu carrito" /
+                    70px    1fr         50px            50px;
 }
+
 .logo{
     grid-area: logo;
     background-color: #faf25c;
@@ -17,6 +18,12 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.logo img {
+    height: 40px;
+    width: 60px;
+}
+
 .input-busqueda{
     grid-area: input-busqueda;
     background-color: #faf25c;
@@ -24,11 +31,20 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .input-bus{
     height: 35px;
     width: 100%;
     border: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-right: 10px;
 }
+
+::placeholder {
+    color: rgb(202, 202, 202);
+}
+
 .icon-lop{
     display: flex;
     justify-content: center;
@@ -36,13 +52,14 @@ header{
     background-color: white;
     height: 35px;
     width: 35px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
-::placeholder{
-    color: rgb(202, 202, 202);
-}
+
 .icon1{
     color: rgb(202, 202, 202);
 }
+
 .hamburguer-menu{
     grid-area: hamburguer-menu;
     background-color: #faf25c;
@@ -51,6 +68,7 @@ header{
     align-items: center;
     font-size: 1.3em;
 }
+
 .carrito{
     grid-area: carrito;
     background-color: #faf25c;
@@ -59,14 +77,28 @@ header{
     align-items: center;
     font-size: 1.3em;
 }
+
 .main-content{
     display: grid;
-    height: 300px;
-    grid-template: "box-producto box-info" /
-                    1fr          1fr;
 }
+
 .box-producto{
-    grid-area: box-producto;
-    background-color: crimson;
+    display: grid;
+    grid-template: "box-img box-info" /
+                    1fr          1fr;
     height: 300px;
+}
+
+.box-img {
+    grid-area: box-img;
+}
+
+.box-info{
+    grid-area: box-info;
+}
+
+.img-auto {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
 }
