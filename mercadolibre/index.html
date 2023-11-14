@@ -3,21 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadolibre</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="../icons/all.css">
-    <title>MercadoADSO</title>
 </head>
 <body>
     <header>
-        <div class="logo"><img src="MercadoLogo.png" alt=""></div>
-        <div class="input-busqueda">
-            <div class="icon-lop"><i class="fa-solid fa-magnifying-glass icon1"></i></div>
-            <input class="input-bus" type="search" name="" id="inputBusqueda" placeholder="Estoy buscando...">
+        <div class="logo">
+            <img class="img-logo" src="MercadoLogo.png" alt="">
         </div>
-        <div class="hamburguer-menu"><i class="fa-solid fa-bars"></i></div>
-        <div class="carrito"><i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="box-input-busqueda">
+            <input id="inputBusqueda" class="input-busqueda" type="text" name="" id="">
+        </div>
+        <div class="icon-header hamburguer-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="icon-header carrito">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
     </header>
-    <div id="mainContent" class="main-content"></div>
+    <div id="mainContent" class="main-content">
+        <div id="boxFiltro" class="box-filtro">
+            <div id="boxToggle" class="box-toggle box-toggle-off">
+                <div id="buttonToggle" class="button-toggle button-toggle-off"></div>
+            </div>
+            <div class="filtros filtros-visible">
+                <div class="filtro">
+                    <div class="filtro-modelo">Modelo</div>
+                    <div class="filtro-anyo">Año</div>
+                    <div class="filtro-ubicacion">Ubicacion</div>
+                    <div class="filtro-condicion">Condicion</div>
+                    <div class="filtro-precio">Precio</div>
+                </div>
+            </div>
+        </div>
+        <div id="boxProductos" class="box-productos"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
