@@ -238,6 +238,10 @@ a:hover{
     background-image:url(https://http2.mlstatic.com/static/org-img/homesnw/mercado-libre.png?v=2);
     background-size: cover;
 }
+.img22{
+    background-image:url(https://1000marcas.net/wp-content/uploads/2019/11/Amazon-logo.png);
+    background-size: cover;
+}
 .box-flexdir:hover{
     transform: scale(1.1);
     transition: 0.5s;
