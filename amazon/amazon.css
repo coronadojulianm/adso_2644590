@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin-right: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input[type="text"] {
+    display: block;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(64, 64, 64, .8);
+    font-size: 1.4em;
+}
+
+input[type="button"] {
+    width: 250px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.barra-progreso {
+    width: 25%;
+    height: 20px;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.barra {
+    height: 100%;
+    background-color: orange;
+    width: 0;
+}
